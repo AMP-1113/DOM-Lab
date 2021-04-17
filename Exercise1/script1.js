@@ -1,6 +1,7 @@
 // DOM Lab
 
-// Task 1
+// Task 
+
 let total = document.getElementById("total");
 let cola = document.getElementById("lime-cola");
 let peanuts = document.getElementById("salted-peanuts");
@@ -37,4 +38,6 @@ gummies.addEventListener("click", (e) => {
     total.innerText = `Total: $${totalCost}`;
 });
 
+
 //Task 2
+

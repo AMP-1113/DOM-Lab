@@ -1,0 +1,67 @@
+body {
+    font-family: 'New Rocker', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.coins {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+.penny {
+    font-size: 15px;
+    height: 35px;
+    width: 35px;
+    background-color: black;
+}
+
+.nickel {
+    font-size: 15px;
+    height: 40px;
+    width: 40px;
+    background-color: red;
+}
+
+.dime {
+    font-size: 15px;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    color: black;
+}
+
+.quarter {
+    font-size: 15px;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color: black;
+}
+
+#coins {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 25px
+}
+
+#total {
+    margin: 15px;
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+    background-color: white;
+}

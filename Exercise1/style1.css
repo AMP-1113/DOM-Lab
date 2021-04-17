@@ -1,0 +1,13 @@
+* {
+    font-family: 'New Rocker', cursive;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
