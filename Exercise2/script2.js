@@ -24,6 +24,7 @@ button.addEventListener("click", (e) => {
         pennyNew.addEventListener("click", (e) => {
         pennyNew.remove();
         moneyCounter -= cost;
+        total.innerText = `Total: $${moneyCounter.toFixed(2)}`;
         }); 
       }
     } else if (coinUserChoice === "nickel") {
@@ -39,6 +40,8 @@ button.addEventListener("click", (e) => {
         
       nickelNew.addEventListener("click", (e) => {
         nickelNew.remove();
+        moneyCounter -= cost;
+        total.innerText = `Total: $${moneyCounter.toFixed(2)}`;
         });
       };
     } else if (coinUserChoice === "dime") {
@@ -54,6 +57,8 @@ button.addEventListener("click", (e) => {
         
         dimeNew.addEventListener("click", (e) => {
           dimeNew.remove();
+          moneyCounter -= cost;
+          total.innerText = `Total: $${moneyCounter.toFixed(2)}`;
           });
         };
     } else {
@@ -69,17 +74,10 @@ button.addEventListener("click", (e) => {
       
         quarterNew.addEventListener("click", (e) => {
           quarterNew.remove();
+          moneyCounter -= cost;
+          total.innerText = `Total: $${moneyCounter.toFixed(2)}`;
           });
         };
     };
   
 });
-
-/*
-let updatedTotal = document.createElement("div");
-    updatedTotal.innerText = `Total = $${moneyCounter.toFixed(2)}`;
-    let totalDiv = document.getElementById("total");
-    totalDiv.append(updatedTotal);
-    console.log(moneyCounter)
-
-    */
